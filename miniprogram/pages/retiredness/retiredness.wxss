@@ -1,0 +1,11 @@
+/* miniprogram/pages/retiredness.wxss */
+.head-section{
+ 
+}
+.head-image{
+ height: 338rpx;
+}
+
+.plate-desc{
+  padding: 10rpx 30rpx;
+}

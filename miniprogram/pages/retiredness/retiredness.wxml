@@ -1,0 +1,25 @@
+<!--miniprogram/pages/retiredness.wxml-->
+<view>
+  
+  <!-- 板块头图 -->
+  <view class="head-section">
+    <image mode="aspectFit" class="head-image" src="" alt="头图"></image>
+    <!-- ../../images/bg-afk.jpg -->
+  </view>
+
+  <!-- 板块说明 -->
+  <view class="plate-desc label-default flex-col">
+    <text class="row-default">板块申明：</text>
+    <text class="row-default">1.少侠三思，买卖账号有风险，交易须谨慎</text>
+    <text class="row-default">2.板块只为想AFK的少侠提供浏览发布，不支持交易</text>
+  </view>
+
+  <view class="btn-section">
+    <navigator url="../databaseGuide/databaseGuide" open-type="navigate">
+      <text class="">退隐江湖</text>
+    </navigator>
+    <navigator url="../databaseGuide/databaseGuide" open-type="navigate">
+      <text class="">血衣重生</text>
+    </navigator>
+  </view>
+</view>

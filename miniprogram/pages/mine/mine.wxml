@@ -1,0 +1,30 @@
+<!--miniprogram/pages/mine/mine.wxml-->
+<view class="container">
+
+  <view class="w-100 bg-pink position-r flex-row panel-section">
+    <view class="w-100 p-lr-40">
+      <view>
+        <text>明日安在</text>
+      </view>
+      <view class="text-indent">
+        <text>无人能允</text>
+      </view>
+    </view>
+    
+    <view class="position-a bg-white flex-row w-90 p-20 border-r-default mine-panel">
+      <view class="mr-20"><image class="head-img" src="../../images/bg-afk.jpg"></image></view>
+      <view>
+        <view><text class="user-name">一只晃晃悠悠的小熊</text></view>
+        <view><text class="name-plate">百晓认证-专栏作者</text></view>
+      </view>
+    </view>
+  </view>
+
+  <view class="list-section">
+    <view>
+      <text></text>
+      <text></text>
+    </view>
+  </view>
+
+</view>

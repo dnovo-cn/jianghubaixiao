@@ -1,0 +1,227 @@
+/* 全局的预置公共样式 */
+/* 引入字体图标 */
+@import "./iconfont.wxss";
+
+view{
+  box-sizing: border-box;
+}
+
+.mine-panel{
+  /* border: 1px solid skyblue; */
+}
+
+.name-plate{
+  width: 100%;
+  border: 1px solid rgb(114, 50, 221);
+  font-size: 24rpx;
+  color: rgb(114, 50, 221);
+  padding: 0px 8rpx;
+}
+
+/* .panel-default{
+  
+} */
+
+.bg-pink{
+  background-color: pink;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.border-r-default{
+  border-radius: 8rpx;
+}
+
+.text-indent{
+  text-indent: 14px;
+}
+
+ .position-r{
+  position: relative;
+ }
+
+ .position-a{
+  position: absolute;
+ }
+
+ .position-f{
+  position: fixed;
+ }
+
+ .z1{
+   z-index: 1;
+ }
+
+ .z2{
+  z-index: 2;
+}
+
+.z3{
+  z-index: 3;
+}
+
+.z4{
+  z-index: 4;
+}
+
+.z5{
+  z-index: 5;
+}
+
+.z98{
+  z-index: 98;
+}
+
+.z99{
+  z-index: 99;
+}
+
+.z998{
+  z-index: 998;
+}
+
+.z999{
+  z-index: 999;
+}
+
+.z9998{
+  z-index: 9998;
+}
+
+.z9999{
+  z-index: 9999;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.row-center{
+  justify-content: center;
+}
+
+.col-center{
+  align-items: center;
+}
+
+.flex-sb{
+  justify-content: space-between;
+}
+
+.flex-sa{
+  justify-content: space-around;
+}
+
+.flex-se{
+  justify-content: space-evenly;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.w-90{
+  width: 90%;
+}
+
+.w-80{
+  width: 80%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font10{
+  font-size: 20rpx;
+}
+
+.font11{
+  font-size: 22rpx;
+}
+
+.font12{
+  font-size: 24rpx;
+}
+
+.font13{
+  font-size: 26rpx;
+}
+
+.font14{
+  font-size: 28rpx;
+}
+
+.font15{
+  font-size: 30rpx;
+}
+
+.font16{
+  font-size: 32rpx;
+}
+
+.font17{
+  font-size: 34rpx;
+}
+
+.font18{
+  font-size: 36rpx;
+}
+
+.font19{
+  font-size: 38rpx;
+}
+
+.font20{
+  font-size: 40rpx;
+}
+
+.font-333{
+  color: #333333;
+}
+
+.font-666{
+  color: #666666;
+}
+
+.font-999{
+  color: #999999;
+}
+
+.font-99CCCC{
+  color: #99CCCC;
+}
+
+
+.mr-10{
+  margin-right: 10rpx;
+}
+
+.mr-20{
+  margin-right: 20rpx;
+}
+
+.p-20{
+  padding: 20rpx;
+}
+
+.p-lr-40{
+  padding: 20rpx 40rpx;
+}
+
+.label-default{
+  font-size: 24rpx;
+  color: red;
+}
+
+.row-default{
+  padding: 6rpx 0;
+}

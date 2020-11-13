@@ -1,0 +1,20 @@
+/* miniprogram/pages/mine/mine.wxss */
+.head-img{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.user-name{
+  font-size: 34rpx;
+}
+
+.panel-section{
+  height: 244rpx;
+  justify-content: center;
+}
+
+.mine-panel{
+  top: 140rpx;
+  box-shadow: 0px 0px 8px #888888;
+}
