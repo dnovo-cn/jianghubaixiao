@@ -1,4 +1,4 @@
-// miniprogram/pages/identify/identify.js
+// miniprogram/pages/smallTools/smallTools.js
 Page({
 
   /**
@@ -7,28 +7,12 @@ Page({
   data: {
     menuList:[{
       menuImg:'',
-      menuName:'厨师',
-      menuUrl:'../openapi/openapi'
+      menuName:'a工具',
+      menuUrl:'../calcTools/calcTools'
     },{
       menuImg:'',
-      menuName:'悬眼',
+      menuName:'b工具',
       menuUrl:'../addFunction/addFunction'
-    },{
-      menuImg:'',
-      menuName:'捕快',
-      menuUrl:'../arrest/arrest'
-    },{
-      menuImg:'',
-      menuName:'雅士',
-      menuUrl:'../databaseGuide/databaseGuide'
-    },{
-      menuImg:'',
-      menuName:'游侠',
-      menuUrl:'../openapi/openapi'
-    },{
-      menuImg:'',
-      menuName:'镖师',
-      menuUrl:'../retiredness/retiredness'
     }]
   },
 

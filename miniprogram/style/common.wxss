@@ -124,6 +124,10 @@ view{
   justify-content: space-evenly;
 }
 
+.flex-nw{
+  flex-wrap: nowrap;
+}
+
 .w-100{
   width: 100%;
 }

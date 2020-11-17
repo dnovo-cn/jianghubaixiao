@@ -1,0 +1,24 @@
+<!--miniprogram/pages/calcTools/calcTools.wxml-->
+<view>
+  <!-- 琅纹计算工具 -->
+  <view>
+    <view>
+      <view class="flex-row flex-nw menu-item" wx:for="{{partList}}" wx:key="index">
+        <text>区域：{{item.partName}}</text>
+        <view>
+          <text>起始：</text>
+          <input class="" type="number" />
+        </view>
+        <view>
+          <text>结束：</text>
+          <input class="" type="number" />
+        </view>
+        <view>
+          <text>单价：</text>
+          <input class="" type="number" />
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

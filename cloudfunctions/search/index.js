@@ -39,20 +39,20 @@ exports.main = async (event, context) => {
   //   .end()
   let _data = await db.collection(dbName).where(_.or([//where中满足对象数组中的任意一个条件即成立
     {
-      name:{
+      title:{
         $regex:'.*'+ event.keyWord,
         $options: '1'
       }
     },
     //模糊匹配title，content字段的内容，option=1表示不区分大小写
     {
-        content:{
+        tags:{
           $regex:'.*'+ event.keyWord,
           $options: '1'
         }
     },
     {
-      tags:{
+      content:{
         $regex:'.*'+ event.keyWord,
         $options: '1'
       }

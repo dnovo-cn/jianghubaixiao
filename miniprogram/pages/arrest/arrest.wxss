@@ -1,0 +1,78 @@
+/* miniprogram/pages/arrest/arrest.wxss */
+
+.icon-small {
+  margin: 0 10rpx;
+}
+
+.search-panel {
+  display: flex;
+  align-items: center;
+  padding: 10rpx 0;
+  padding-left: 10rpx;
+  border-radius: 50rpx;
+  background-color: #5B7FA7;
+}
+
+.search-input {
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.input-placeholder {
+  color: #FFFFFF;
+  font-size: 32rpx;
+}
+
+.result-section {
+  height: calc(100vh - 50px);
+  overflow: scroll;
+  padding: 20rpx;
+}
+
+.result-item {
+  margin-bottom: 20rpx;
+}
+
+.no-result {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.tips-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.tips-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: 10s wordsLoop linear infinite normal;
+}
+
+@keyframes wordsLoop {
+  0% {
+    transform: translateX(200px);
+    -webkit-transform: translateX(200px);
+  }
+
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes wordsLoop {
+  0% {
+    transform: translateX(200px);
+    -webkit-transform: translateX(200px);
+  }
+
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+.icon-nothing{
+  font-size: 240rpx;
+}

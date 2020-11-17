@@ -1,4 +1,4 @@
-/* miniprogram/pages/identify/identify.wxss */
+/* miniprogram/pages/smallTools/smallTools.wxss */
 .menu-section{
   display: flex;
   justify-content: space-between;

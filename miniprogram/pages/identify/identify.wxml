@@ -1,48 +1,11 @@
 <!--miniprogram/pages/identify/identify.wxml-->
 <view>
 
-  <!-- 搜索框 -->
-  <view class="p-20 search-section">
-    <view class="search-panel">
-      <icon class="icon-small" type="search" size="18" color="#FFFFFF"></icon>
-      <input class="search-input" confirm-type="search" placeholder="请输入关键词" bindinput="onInput" bindconfirm="onSearch" />
-    </view>
+  <!-- 身份列表 -->
+  <view class="menu-section">
+    <navigator class="menu-item" wx:for="{{menuList}}" wx:key="index" url="{{item.menuUrl}}" open-type="navigate">
+      <image class="menu-img">{{item.menuImg}}</image>
+      <text class="menu-name">{{item.menuName}}</text>
+    </navigator> 
   </view>
-
-  <!-- 热门搜索 -->
-  <view class="p-20 tips-section">
-    <view class="text-center font16 font-99CCCC flex-row col-center position-r">
-      <view class="iconfont icon-guangbo mr-20"></view>
-      <view class="tips-wrapper"><text class="tips-text">这是一段轮播文字，来吧看看效果，滚动成功技术提升，滚动失败你最可爱，奥利给，加油打工人</text></view>
-    </view>
-  </view>
-
-  <!-- 搜索内容 -->
-  <view class="result-section"> 
-    <view wx:if="{{resultList.length}}" class="result-list">
-      <view class="result-item" wx:for="{{resultList}}"  wx:key="index">
-        <view>
-          <text class="font19 font-333 result-title">{{item.name}}</text>
-        </view>
-        <view>
-          <text class="font16 font-666 result-content">{{item.content}}</text>
-        </view>
-      </view>
-    </view>
-    <view wx:if="{{!resultList.length&&keyWord}}" class="no-result">
-      <view class="font-999">
-        <view class="iconfont icon-nothing"></view>
-        <text>哦豁哟，居然啥也没找到</text>
-      </view>
-    </view>
-    <view wx:if="{{!keyWord}}" class="no-result">
-      <view class="font-999">
-        <view class="iconfont icon-nothing"></view>
-        <text>少侠，想要知道点什么</text>
-      </view>
-    </view>
-  </view>
-
-
-
 </view>

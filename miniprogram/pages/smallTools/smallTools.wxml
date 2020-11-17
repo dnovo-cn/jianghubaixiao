@@ -1,0 +1,11 @@
+<!--miniprogram/pages/smallTools/smallTools.wxml-->
+<view>
+
+<!-- 小工具列表 -->
+<view class="menu-section">
+  <navigator class="menu-item" wx:for="{{menuList}}" wx:key="index" url="{{item.menuUrl}}" open-type="navigate">
+    <image class="menu-img">{{item.menuImg}}</image>
+    <text class="menu-name">{{item.menuName}}</text>
+  </navigator> 
+</view>
+</view>

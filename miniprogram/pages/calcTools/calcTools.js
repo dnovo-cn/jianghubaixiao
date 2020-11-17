@@ -1,34 +1,12 @@
-// miniprogram/pages/identify/identify.js
+// miniprogram/pages/calcTools/calcTools.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    menuList:[{
-      menuImg:'',
-      menuName:'厨师',
-      menuUrl:'../openapi/openapi'
-    },{
-      menuImg:'',
-      menuName:'悬眼',
-      menuUrl:'../addFunction/addFunction'
-    },{
-      menuImg:'',
-      menuName:'捕快',
-      menuUrl:'../arrest/arrest'
-    },{
-      menuImg:'',
-      menuName:'雅士',
-      menuUrl:'../databaseGuide/databaseGuide'
-    },{
-      menuImg:'',
-      menuName:'游侠',
-      menuUrl:'../openapi/openapi'
-    },{
-      menuImg:'',
-      menuName:'镖师',
-      menuUrl:'../retiredness/retiredness'
+    partList:[{
+    
     }]
   },
 
